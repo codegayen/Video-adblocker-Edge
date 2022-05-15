@@ -7,8 +7,9 @@
          "64": "data/icons/64.png"
       },
       "default_popup": "data/interface/index.html?popup",
-      "default_title": "Video AdBlocker Edge"
+      "default_title": "__MSG_app_name__"
    },
+   "default_locale": "en",
    "background": {
       "service_worker": "background.js"
    },
@@ -17,7 +18,7 @@
       "js": [ "bundled-content-script.js" ],
       "matches": [ "*://youtube.com/*", "*://www.youtube.com/*", "*://m.youtube.com/*", "*://*.music.youtube.com/*" ]
    } ],
-   "description": "Removes annoying ads and banners from YouTube and Youtube Music!",
+   "description": "__MSG_app_description__",
    "externally_connectable": {
       "matches": [ "*://*.youtube.com/*" ]
    },
@@ -30,11 +31,9 @@
       "48": "data/icons/48.png",
       "64": "data/icons/64.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApYEel5kDphccaVGKLkQESmp6ytJhNEqCRrHPaAGORvSCDDOVRjEsFFbEmyVAcYMD+u1U1l+mr74xq/Ay0uA2wXHZbTFdSUPBvHVUNOaaJHTckM3NAiRrPJ0u2KEZXChMeMQibJcDa9VSxT4OvnyQaJvV7M3BAGG+3h3n6UPRGY1JlBRaZ0qgO6UA8BVqR7nzV2Luu1VfY5Fo4Ame2bcQYQzUP2PtPO4t2AX/y/9+OmVjfIWCiBqHAbv+qDKjz6GaHCkfJhG3TGrjgabBfBc9DuOdVxJcJIfdbVYUW229hp1rhnCZyYAPowm/2Y4sVFd6H2rUDtLWDpgTywCB8KFOCwIDAQAB",
    "manifest_version": 3,
-   "name": "Video AdBlocker Edge",
+   "name": "__MSG_app_name__",
    "permissions": [ "storage" ],
    "short_name": "VideoAdblockEdge",
-   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
-   "version": "2.215.21"
+   "version": "2.215.22"
 }
