@@ -1,11 +1,11 @@
 {
    "app_description": {
-      "message": "Removes all annoying ads and banners from YouTube!"
+      "message": "Video AdBlocker Edge disables Ads on Youtube. It will auto skip Video Ads.Ads Free Youtube Music"
    },
    "app_name": {
-      "message": "Video Ads Blocker for Youtube™"
+      "message": "Video AdBlocker Edge"
    },
-   "begging": {
-      "message": "Begging ♥"
+   "rate": {
+      "message": "Please help and rate us!"
    }
 }

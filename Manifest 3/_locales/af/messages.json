@@ -1,11 +1,11 @@
 {
    "app_description": {
-      "message": "Verwyder alle irriterende advertensies en baniere van YouTube af!"
+      "message": "Video AdBlocker Edge disables Ads on Youtube. It will auto skip Video Ads.Ads Free Youtube Music"
    },
    "app_name": {
-      "message": "Video-advertensieblokker vir Youtube™"
+      "message": "Video AdBlocker Edge"
    },
-   "begging": {
-      "message": "Begging ♥"
+   "rate": {
+      "message": "Please help and rate us!"
    }
 }

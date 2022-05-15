@@ -1,4 +1,8 @@
 setInterval(()=>{
+ logopath = document.querySelector("ytd-topbar-logo-renderer #logo-icon svg g g path");
+  if (logopath) {
+        logopath.style.fill="#58a6ff";
+  }
  if( ! document.querySelector('.ad-showing') ) return
  
           const video=document.querySelector('video')
